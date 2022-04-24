@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven{ url  'https://maven.aliyun.com/repository/public' }
+    maven{ url  'https://maven.aliyun.com/repository/central' }
+    maven{ url  'https://maven.aliyun.com/repository/grails-core' }
+    mavenCentral()
+}
+
+dependencies {
+}
+
+task createJavaProject  {
+    sourceSets*.java.srcDirs*.each{ it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each{ it.mkdirs()}
+}

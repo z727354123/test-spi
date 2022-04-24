@@ -1,0 +1,5 @@
+rootProject.name = 'test_spi'
+include 'fizz-api'
+project(':fizz-api')
+include 'fizz-srv'
+include 'fizz-srv2'
