@@ -12,7 +12,7 @@ import java.util.function.Supplier;
  * @since 2022-04-24
  */
 public class Holder<T> {
-    private T val;
+    private volatile T val;
 
     public T get() {
         return val;

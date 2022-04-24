@@ -42,7 +42,7 @@ public class ExtensionFactory<T> {
     // holder 保证本 Factory, newIns 只调用一次
     private final ConcurrentHashMap<String, Holder<T>> cachedIns = new ConcurrentHashMap<>();
 
-    // ???
+    // 用于装饰器模式
     private final Set<Class<T>> wrapper = new HashSet<>();
 
     public ExtensionFactory(Class<T> cls) {

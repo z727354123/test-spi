@@ -3,3 +3,5 @@ include 'fizz-api'
 project(':fizz-api')
 include 'fizz-srv'
 include 'fizz-srv2'
+include 'fizz-srv-wrapper'
+

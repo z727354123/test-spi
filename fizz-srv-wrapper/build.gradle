@@ -14,9 +14,7 @@ repositories {
 
 dependencies {
     implementation project(':fizz-api')
-    implementation project(':fizz-srv')
-    implementation project(':fizz-srv-wrapper')
-    implementation project(':fizz-srv2')
+
 }
 
 task createJavaProject  {
