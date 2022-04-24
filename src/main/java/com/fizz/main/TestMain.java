@@ -16,7 +16,7 @@ import java.lang.reflect.Method;
  */
 public class TestMain {
     public static void main(String[] args) throws Exception {
-        System.setProperty("calcService.ins", "my");
+        // System.setProperty("calcService.ins", "srv2");
         call();
 
     }

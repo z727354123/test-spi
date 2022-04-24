@@ -23,7 +23,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class ExtensionFactory<T> {
     // 约定路径
-    private static final String EXTENSION_DIRECTORY = "META-INFO/com/fizz/extension/";
+    private static final String EXTENSION_DIRECTORY = "META-INF/com/fizz/extension/";
 
     // 接口类: 工厂实例
     private static final ConcurrentHashMap<Class, ExtensionFactory> EXTENSION_FACTORYS = new ConcurrentHashMap<>();
